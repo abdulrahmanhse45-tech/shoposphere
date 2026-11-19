@@ -1,0 +1,27 @@
+{
+  "name": "shoposphere",
+  "version": "1.0.0",
+  "description": "ShopSphere — Quiet Luxury MERN Stack E-Commerce Platform",
+  "scripts": {
+    "seed": "cd backend && npm run seed",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "test:api": "cd backend && node scripts/testEndpoints.js",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "mern",
+    "ecommerce",
+    "quiet-luxury",
+    "shoposphere"
+  ],
+  "author": "Abdul Rahman",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^10.0.6"
+  },
+  "dependencies": {
+    "pdfkit": "^0.20.2",
+    "razorpay": "^2.9.8"
+  }
+}
